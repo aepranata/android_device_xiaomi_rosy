@@ -23,3 +23,5 @@ vendor.powerhal.				u:object_r:vendor_power_propg:s0
 vendor.wlan.driver.ath				u:object_r:vendor_wifi_prop:s0
 vendor.wlan.driver.config			u:object_r:vendor_wifi_prop:s0
 wifi.active.interface				u:object_r:vendor_wifi_prop:s0
+ro.vendor.ril.svlte1x                           u:object_r:vendor_radio_prop:s0
+ro.vendor.ril.svdo                              u:object_r:vendor_radio_prop:s0
