@@ -241,10 +241,6 @@
             <instance>default</instance>
         </interface>
         <interface>
-            <name>IFingerprintNavigation</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
             <name>IFingerprintRecalibration</name>
             <instance>default</instance>
         </interface>
@@ -252,17 +248,11 @@
             <name>IFingerprintSenseTouch</name>
             <instance>default</instance>
         </interface>
-        <interface>
-            <name>IFingerprintSensorTest</name>
-            <instance>default</instance>
-        </interface>
         <fqname>@1.0::IFingerprintAuthenticator/default</fqname>
         <fqname>@1.0::IFingerprintCalibration/default</fqname>
         <fqname>@1.0::IFingerprintEngineering/default</fqname>
-        <fqname>@1.0::IFingerprintNavigation/default</fqname>
         <fqname>@1.0::IFingerprintRecalibration/default</fqname>
         <fqname>@1.0::IFingerprintSenseTouch/default</fqname>
-        <fqname>@1.0::IFingerprintSensorTest/default</fqname>
     </hal>
     <hal format="hidl">
         <name>com.qualcomm.qti.dpm.api</name>
