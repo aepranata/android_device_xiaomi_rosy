@@ -14,7 +14,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 RICE_CHIPSET := MSM8953
 RICE_MAINTAINER := "A³-Project"
-RICE_PACKAGE_TYPE := "VANILLA AOSP"
+RICE_PACKAGE_TYPE := "VANILLA"
 SUSHI_BOOTANIMATION := 720
 TARGET_BUILD_GRAPHENEOS_CAMERA := true
 TARGET_ENABLE_BLUR := false
