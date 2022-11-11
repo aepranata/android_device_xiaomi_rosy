@@ -50,6 +50,9 @@ TARGET_KERNEL_CONFIG := rosy-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/rosy
 TARGET_KERNEL_NEW_GCC_COMPILE := true
 TARGET_KERNEL_CLANG_COMPILE := false
+KERNEL_MAKE_FLAGS += CPATH="/usr/include:/usr/include/x86_64-linux-gnu"
+HOSTCFLAGS="-fuse-ld=lld"
+HOSTLDFLAGS="-L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -fuse-ld=lld"
 
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
