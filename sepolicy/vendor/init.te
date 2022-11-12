@@ -10,3 +10,5 @@ allow init sysfs_leds:lnk_file read;
 
 # last_kmsg
 allow init proc_last_kmsg:file { r_file_perms setattr };
+
+allow init sysfs:file { write };
