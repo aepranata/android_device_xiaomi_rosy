@@ -54,6 +54,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/rosy
 #HOSTLDFLAGS="-L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -fuse-ld=lld"
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := atiga
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-$(TARGET_KERNEL_CLANG_VERSION)
 KERNEL_MAKE_FLAGS += CC=clang
 KERNEL_MAKE_FLAGS += CXX=clang++
 KERNEL_MAKE_FLAGS += CROSS_COMPILE=aarch64-linux-gnu-
