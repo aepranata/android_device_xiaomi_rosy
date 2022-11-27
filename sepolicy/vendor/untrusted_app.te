@@ -1,1 +1,7 @@
 dontaudit untrusted_app hal_memtrack_hwservice:hwservice_manager find;
+
+allow untrusted_app proc:file { read };
+allow untrusted_app proc_tty_drivers:file { read };
+allow untrusted_app qemu_hw_prop:file { read };
+allow untrusted_app qemu_sf_lcd_density_prop:file { read };
+allow untrusted_app serialno_prop:file { read };
