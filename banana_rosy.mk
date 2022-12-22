@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 $(call inherit-product, vendor/banana/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
-BANANA_MAINTAINER := A³-Project
+BANANA_MAINTAINER := aepranata
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Inherit from rosy device
